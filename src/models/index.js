@@ -22,5 +22,6 @@ init();
 
 module.exports = {
   User, // export the model
+  Post,
   // also export any extra models here
 };

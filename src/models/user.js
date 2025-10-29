@@ -19,6 +19,14 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    middleName: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    dob: {
+      type: DataTypes.TIME,
+      allowNull: false,
+    },
     emailId: {
       type: DataTypes.STRING,
       allowNull: false,
